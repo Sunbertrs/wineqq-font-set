@@ -7,6 +7,7 @@ wget https://github.com/sunbossrs/chinese-wine-configure/blob/master/zhfont.reg?
 cp msyh.ttf ~/.wine/drive_c/windows/Fonts/
 cp msyhbd.ttf ~/.wine/drive_c/windows/Fonts/
 regedit zhfont.reg
+sed -i 's/"LogPixels"=dword:00000060/"LogPixels"=dword:00000070/g' ~/.wine/system.reg
 rm msyh.ttf
 rm simsum.ttc
 rm zhfont.reg
