@@ -10,5 +10,12 @@
 - wget
 - wine
 
+### 使用方法
+**确保在此之前已经安装了`curl`软件包**  
+安装Wine的中文支持字库，运行这个命令：
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/sunbossrs/chinese-wine-configure/master/zhfont.sh)"
+```
+
 ### 许可
 本项目基于MIT许可协议。
