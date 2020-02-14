@@ -1,0 +1,30 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink]
+"Lucida Sans Unicode"="msyh.ttf"
+"Microsoft Sans Serif"="msyh.ttf"
+"MS Sans Serif"="msyh.ttf"
+"Tahoma"="msyh.ttf"
+"Tahoma Bold"="msyhbd.ttf"
+"msyh"="msyh.ttf"
+"Arial"="msyh.ttf"
+"Arial Black"="msyh.ttf"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
+"Tahoma"="msyh.ttf"
+"Arial"="msyh.ttf"
+"Arial CE,238"="msyh.ttf"
+"Arial CYR,204"="msyh.ttf"
+"Arial Greek,161"="msyh.ttf"
+"Arial TUR,162"="msyh.ttf"
+"Courier New"="msyh.ttf"
+"Courier New CE,238"="msyh.ttf"
+"Courier New CYR,204"="msyh.ttf"
+"Courier New Greek,161"="msyh.ttf"
+"Courier New TUR,162"="msyh.ttf"
+"FixedSys"="msyh.ttf"
+"Helv"="msyh.ttf"
+"Helvetica"="msyh.ttf"
+"MS Sans Serif"="msyh.ttf"
+"MS Shell Dlg"="msyh.ttf"
+"MS Shell Dlg 2"="msyh.ttf"
