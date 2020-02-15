@@ -34,3 +34,6 @@ REGEDIT4
 "Times New Roman Greek,161"="simsun"
 "Times New Roman TUR,162"="simsun"
 "Tms Rmn"="simsun"
+
+[System\\CurrentControlSet\\Hardware Profiles\\Current\\Software\\Fonts] 1581757009
+"LogPixels"=dword:00000070
