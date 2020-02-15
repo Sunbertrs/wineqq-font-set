@@ -7,7 +7,7 @@ wget https://github.com/sunbossrs/chinese-wine-configure/blob/master/zhfont.reg?
 cp msyh.ttf ~/.wine/drive_c/windows/Fonts/
 cp simsun.ttc ~/.wine/drive_c/windows/Fonts/
 regedit zhfont.reg
-sed 's dword:00000060 dword:00000070 g'
+sed 's dword:00000060 dword:00000070 g' ~/.wine/system.reg
 sleep 2
 rm msyh.ttf
 rm simsun.ttc
