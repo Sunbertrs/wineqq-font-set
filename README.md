@@ -1,4 +1,4 @@
-<h1 align=center>Chinese Wine Configure</h1>
+<h1 align=center>CN Wine Configure</h1>
 <center>你在linux运行的wine是否出现一些情况？来这里看看吧！</center>
 
 ### 前言
@@ -15,7 +15,7 @@
 **确保在此之前已经安装了`curl`软件包**  
 安装Wine的中文支持字库，运行这个命令：
 ```sh
-sh -c "$(curl -fsSL https://github.com/sunbossrs/chinese-wine-configure/raw/master/zhfont.sh)"
+sh -c "$(curl -fsSL https://github.com/sunbossrs/cn-wine-configure/raw/master/zhfont.sh)"
 ```
 
 ### 许可
