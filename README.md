@@ -1,25 +1,22 @@
-<h1 align=center>CN Wine Configure</h1>
-<center>你在linux运行的wine是否出现一些情况？来这里看看吧！</center>
+# cn-wineqq-conf
 
-### 前言
+解决Linux用户在Wine上运行QQ、Tim字体的问题。
 
-如果你在linux运行wine+qq出现字体乱码，显示不出的话
+### 使用方法
 
-那么在这里，你就可以解决问题。
+首先确保已经安装了以下的包：
 
-### 要求
-
-你的linux机器要已经安装了以下的包：
 - wget
 - wine
 - tar
 - curl
 
-### 使用方法
+并确保电脑能正常连接到网络。
 
-运行:
+运行指令:
+
 ```sh
-sh -c "$(curl -fsSL https://github.com/sunbossrs/cn-wine-configure/raw/master/zhfont.sh)"
+sh -c "$(curl -fsSL https://github.com/sunbossrs/cn-wineqq-conf/raw/master/zhfont.sh)"
 ```
 
 ### 许可
