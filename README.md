@@ -14,17 +14,21 @@
 
 ## 使用方法
 
-确保除了`Wine`之外，还安装了以下的包：
+确保除了`Wine`之外，还安装了`curl`。
+并且电脑能正常连接到网络。
 
-- tar
-- curl
-
-并确保电脑能正常连接到网络。
-
-只需要运行这行指令，就可以马上处理字体问题。
+只需要运行这些指令，就可以马上处理字体问题。
 
 ```sh
-sh -c "$(curl -fsSL https://github.com/sunbossrs/cn-wineqq-conf/raw/master/zhfont.sh)"
+cd ~/.wine/drive_c/windows/Fonts
+curl -O https://github.com/sunbossrs/wineqq-font-set/raw/master/fontlib/msyh.ttf
+curl -O https://github.com/sunbossrs/wineqq-font-set/raw/master/fontlib/simsun.ttc
+```
+
+如果嫌麻烦，也可以只需要一行命令：
+
+```sh
+sh -c "$(curl -fsSL https://github.com/sunbossrs/wineqq-font-set/raw/master/zhfont.sh)"
 ```
 
 祝你玩得愉快;-)
